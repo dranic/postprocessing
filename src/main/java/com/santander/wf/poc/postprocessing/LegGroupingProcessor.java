@@ -3,7 +3,6 @@ package com.santander.wf.poc.postprocessing;
 import com.workfusion.vds.api.nlp.model.Field;
 import com.workfusion.vds.api.nlp.model.IeDocument;
 import com.workfusion.vds.nlp.processing.grouping.PositionBasedGroupingProcessor;
-
 import java.util.*;
 import java.util.stream.IntStream;
 
