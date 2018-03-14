@@ -5,10 +5,11 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 .idea
-target
 *.iml
-bin
 .metadata
 .settings
-.log
-
+bin
+target
+output
+logs
+*.log
