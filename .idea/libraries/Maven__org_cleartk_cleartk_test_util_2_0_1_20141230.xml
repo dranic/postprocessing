@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.cleartk:cleartk-test-util:2.0.1-20141230">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/cleartk/cleartk-test-util/2.0.1-20141230/cleartk-test-util-2.0.1-20141230.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/cleartk/cleartk-test-util/2.0.1-20141230/cleartk-test-util-2.0.1-20141230-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/cleartk/cleartk-test-util/2.0.1-20141230/cleartk-test-util-2.0.1-20141230-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
