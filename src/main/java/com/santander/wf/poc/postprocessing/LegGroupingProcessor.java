@@ -4,7 +4,6 @@ import com.workfusion.vds.api.nlp.model.Field;
 import com.workfusion.vds.api.nlp.model.IeDocument;
 import com.workfusion.vds.nlp.processing.grouping.PositionBasedGroupingProcessor;
 import java.util.*;
-import java.util.stream.IntStream;
 
 /**
  * Created by Dranitsa_PD on 12.03.2018.
@@ -47,10 +46,9 @@ public class LegGroupingProcessor extends PositionBasedGroupingProcessor {
                 Iterator<Field> iterator = fields.iterator();
                 for (int i = 0 ; iterator.hasNext() ; i++) {
                     Field field= iterator.next();
-                    insertGroupIndices(field, IntStream.rangeClosed(i, i).toArray());
+                    insertGroupIndices(field, i);
                 }
             }
         }
     }
-
 }
