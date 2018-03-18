@@ -11,7 +11,7 @@
 bin
 target
 output
+input
 logs
-local
 *.log
 deploy
