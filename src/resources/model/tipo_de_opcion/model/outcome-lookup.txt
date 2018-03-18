@@ -1,5 +1,0 @@
-1 O
-2 S-tipo_de_opcion
-3 B-tipo_de_opcion
-4 I-tipo_de_opcion
-5 E-tipo_de_opcion

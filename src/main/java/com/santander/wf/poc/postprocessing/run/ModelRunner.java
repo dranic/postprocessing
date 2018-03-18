@@ -11,10 +11,9 @@ public class ModelRunner {
         System.setProperty("WORKFLOW_LOG_FOLDER", "./logs/");
         LocalSantanderRunner runner = new LocalSantanderRunner();
 
-        //TODO put correct values for paths
-        Path trainedModelPath = Paths.get("src/resources/model");
-        Path inputFolderPath = Paths.get("src/resources/input");
-        Path outputFolderPath = Paths.get("src/resources/output");
+        Path trainedModelPath = Paths.get("src/local/model");
+        Path inputFolderPath = Paths.get("src/local/input");
+        Path outputFolderPath = Paths.get("src/local/output");
 
         runner.run(new SantanderModel(), trainedModelPath, inputFolderPath, outputFolderPath);
     }

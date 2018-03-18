@@ -8,9 +8,9 @@
         <version>8.5.3</version>
     </parent>
 
-    <groupId>santander</groupId>
-    <artifactId>postprocessing</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>com.santander.wf.poc</groupId>
+    <artifactId>santander-postpr</artifactId>
+    <version>1.0</version>
 
     <properties>
         <hypermodel.output.dir>${basedir}/deploy/</hypermodel.output.dir>

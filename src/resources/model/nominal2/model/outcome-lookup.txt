@@ -1,4 +1,0 @@
-1 O
-2 S-nominal2
-3 B-nominal2
-4 E-nominal2

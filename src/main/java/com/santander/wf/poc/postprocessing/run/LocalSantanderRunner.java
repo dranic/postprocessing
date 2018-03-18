@@ -1,17 +1,15 @@
 package com.santander.wf.poc.postprocessing.run;
 
-import java.nio.file.Path;
-import java.nio.file.Paths;
-
-import org.apache.uima.analysis_engine.AnalysisEngine;
-import org.apache.uima.fit.factory.AnalysisEngineFactory;
-
 import com.workfusion.nlp.uima.pipeline.workflow.CustomWorkflowPipeline;
 import com.workfusion.nlp.uima.workflow.model.Hypermodel;
 import com.workfusion.vds.api.nlp.hypermodel.ModelType;
 import com.workfusion.vds.nlp.processing.annotator.PostProcessingAnnotator;
 import com.workfusion.vds.nlp.uima.annotator.processing.ExtractPostProcessingAnnotator;
 import com.workfusion.vds.nlp.uima.processing.run.IeProcessingRunner;
+import org.apache.uima.analysis_engine.AnalysisEngine;
+import org.apache.uima.fit.factory.AnalysisEngineFactory;
+
+import java.nio.file.Path;
 
 /**
  * Created by Dranitsa_PD on 13.03.2018.
