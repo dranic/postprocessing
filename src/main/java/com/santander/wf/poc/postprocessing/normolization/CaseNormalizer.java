@@ -1,4 +1,4 @@
-package normolization;
+package com.santander.wf.poc.postprocessing.normolization;
 
 import com.workfusion.vds.api.nlp.normalization.Normalizer;
 

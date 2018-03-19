@@ -3,15 +3,15 @@ package com.santander.wf.poc.postprocessing.processors;
 import java.util.Arrays;
 import java.util.Collection;
 
-import normolization.AmountNormalizer;
-import normolization.CaseNormalizer;
+import com.santander.wf.poc.postprocessing.normolization.AmountNormalizer;
+import com.santander.wf.poc.postprocessing.normolization.CaseNormalizer;
 import com.workfusion.vds.api.nlp.model.Field;
 import com.workfusion.vds.api.nlp.model.IeDocument;
 import com.workfusion.vds.api.nlp.normalization.Normalizer;
 import com.workfusion.vds.api.nlp.processing.IeProcessor;
 import com.workfusion.vds.api.nlp.processing.ProcessingException;
 import com.workfusion.vds.nlp.processing.normalization.OcrDateNormalizer;
-import normolization.PrecioNormalizer;
+import com.santander.wf.poc.postprocessing.normolization.PrecioNormalizer;
 
 
 /**

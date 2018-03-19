@@ -1,10 +1,7 @@
 package com.santander.wf.poc.postprocessing.normolization;
 
-import normolization.AmountNormalizer;
-import normolization.PrecioNormalizer;
 import org.junit.Test;
 
-import java.text.Normalizer;
 import java.util.Arrays;
 
 public class PrecioAmountTest {
@@ -102,4 +99,26 @@ public class PrecioAmountTest {
         });
     }
 
+
+
+     String [] estrategias =
+             {"buys",
+            "sells",
+            "BUYER",
+            "SELLER",
+            "sells",
+            "buys",
+            "Buyer",
+            "Buyer",
+            "Buyer",
+            "sells"};
+
+    @Test
+    public void normolizeEstrategiaTest() {
+        Arrays.stream(estrategias).forEach( est -> {
+            System.out.print(est);
+            com.workfusion.vds.api.nlp.normalization.Normalizer normolizer = new CaseNormalizer();
+            System.out.println("\t\t" + normolizer.normalize(est));
+        });
+    }
 }

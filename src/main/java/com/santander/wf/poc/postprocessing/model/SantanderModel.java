@@ -1,5 +1,6 @@
 package com.santander.wf.poc.postprocessing.model;
 
+import com.santander.wf.poc.postprocessing.PostProcessingConfigurationNew;
 import com.santander.wf.poc.postprocessing.SantanderModelPostProcessingConfiguration;
 import com.workfusion.vds.api.nlp.hypermodel.ModelType;
 import com.workfusion.vds.api.nlp.hypermodel.annotation.FixedModelConfiguration;
@@ -14,7 +15,7 @@ import com.workfusion.vds.nlp.hypermodel.ie.invoice.generic.GenericInvoiceIeHype
         version = "1.0",
         type = ModelType.IE
 )
-@PostProcessorsConfiguration(SantanderModelPostProcessingConfiguration.class)
+@PostProcessorsConfiguration(PostProcessingConfigurationNew.class)
 @FixedModelConfiguration(value = "santander-config/")
 public class SantanderModel extends GenericInvoiceIeHyperModel {
 
