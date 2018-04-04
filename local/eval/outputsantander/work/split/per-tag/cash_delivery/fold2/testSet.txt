@@ -1,2 +1,0 @@
-C:\_projects\santander\workspace\postprocessing\postprocessing\local\eval\outputsantander\input\training-set\10.html
-C:\_projects\santander\workspace\postprocessing\postprocessing\local\eval\outputsantander\input\training-set\12_murex.html

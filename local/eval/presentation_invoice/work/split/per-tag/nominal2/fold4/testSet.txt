@@ -1,5 +1,0 @@
-C:\_projects\santander\workspace\postprocessing\postprocessing\local\eval\presentation_invoice\input\training-set\12_murex.html
-C:\_projects\santander\workspace\postprocessing\postprocessing\local\eval\presentation_invoice\input\training-set\3.html
-C:\_projects\santander\workspace\postprocessing\postprocessing\local\eval\presentation_invoice\input\training-set\38.html
-C:\_projects\santander\workspace\postprocessing\postprocessing\local\eval\presentation_invoice\input\training-set\6.html
-C:\_projects\santander\workspace\postprocessing\postprocessing\local\eval\presentation_invoice\input\training-set\9_murex.html

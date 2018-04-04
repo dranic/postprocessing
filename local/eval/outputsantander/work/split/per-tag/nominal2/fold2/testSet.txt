@@ -1,5 +1,0 @@
-C:\_projects\santander\workspace\postprocessing\postprocessing\local\eval\outputsantander\input\training-set\10.html
-C:\_projects\santander\workspace\postprocessing\postprocessing\local\eval\outputsantander\input\training-set\2.html
-C:\_projects\santander\workspace\postprocessing\postprocessing\local\eval\outputsantander\input\training-set\35.html
-C:\_projects\santander\workspace\postprocessing\postprocessing\local\eval\outputsantander\input\training-set\40.html
-C:\_projects\santander\workspace\postprocessing\postprocessing\local\eval\outputsantander\input\training-set\8.html

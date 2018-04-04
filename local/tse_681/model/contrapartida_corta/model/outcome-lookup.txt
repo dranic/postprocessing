@@ -1,5 +1,0 @@
-1 O
-2 B-contrapartida_corta
-3 I-contrapartida_corta
-4 E-contrapartida_corta
-5 S-contrapartida_corta

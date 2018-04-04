@@ -1,9 +1,0 @@
-C:\_projects\santander\workspace\postprocessing\postprocessing\local\eval\outputsantander\input\training-set\10.html
-C:\_projects\santander\workspace\postprocessing\postprocessing\local\eval\outputsantander\input\training-set\14.html
-C:\_projects\santander\workspace\postprocessing\postprocessing\local\eval\outputsantander\input\training-set\2.html
-C:\_projects\santander\workspace\postprocessing\postprocessing\local\eval\outputsantander\input\training-set\24.html
-C:\_projects\santander\workspace\postprocessing\postprocessing\local\eval\outputsantander\input\training-set\29.html
-C:\_projects\santander\workspace\postprocessing\postprocessing\local\eval\outputsantander\input\training-set\32.html
-C:\_projects\santander\workspace\postprocessing\postprocessing\local\eval\outputsantander\input\training-set\37.html
-C:\_projects\santander\workspace\postprocessing\postprocessing\local\eval\outputsantander\input\training-set\4_murex.html
-C:\_projects\santander\workspace\postprocessing\postprocessing\local\eval\outputsantander\input\training-set\7.html

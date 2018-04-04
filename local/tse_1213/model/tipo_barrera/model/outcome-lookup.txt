@@ -1,4 +1,0 @@
-1 O
-2 S-tipo_barrera
-3 B-tipo_barrera
-4 E-tipo_barrera

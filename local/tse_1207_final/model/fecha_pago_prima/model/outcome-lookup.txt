@@ -1,5 +1,0 @@
-1 O
-2 B-fecha_pago_prima
-3 I-fecha_pago_prima
-4 E-fecha_pago_prima
-5 S-fecha_pago_prima
