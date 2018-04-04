@@ -1,0 +1,5 @@
+1 O
+2 B-fecha_pago_vencimiento
+3 I-fecha_pago_vencimiento
+4 E-fecha_pago_vencimiento
+5 S-fecha_pago_vencimiento

@@ -1,0 +1,4 @@
+1 O
+2 S-opcion1
+3 B-opcion1
+4 E-opcion1

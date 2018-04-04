@@ -1,0 +1,39 @@
+{
+  "maxNumOfExp": 10000,
+  "targetScore": 1.0,
+  "timeLimit": 36000,
+  "timeLimitFromParam": 0,
+  "maxExpWithSameBestScore": 100,
+  "toolkit": {
+    "batchSize": 8,
+    "iterationLimit": 1000,
+    "threadLimit": 4,
+    "numOfInitialExp": 8,
+    "terminated": false,
+    "classifierClass": "com.workfusion.nlp.uima.api.mlp.dl4j.MlpDl4JClassifier",
+    "chooser": {
+      "coolingRate": 0.003,
+      "maxTemperature": 0.1,
+      "minTemperature": 0.001,
+      "maxIterations": 20000,
+      "maxNumOfCandidates": 10,
+      "random": {
+        "seed": 1545108811880,
+        "nextNextGaussian": 0.0,
+        "haveNextNextGaussian": false
+      },
+      "experimentHistory": [],
+      "numOfRandomParamSets": 10000
+    },
+    "converter": {
+      "constantParameters": {},
+      "parametersMap": {},
+      "variables": {}
+    },
+    "iterationStartTime": 0,
+    "debugMode": true
+  },
+  "calcScoreFunc": {},
+  "groupId": "SantanderModel",
+  "dimensions": {}
+}

@@ -1,0 +1,4 @@
+1 O
+2 S-estrategia
+3 B-estrategia
+4 E-estrategia

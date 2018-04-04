@@ -1,0 +1,5 @@
+1 O
+2 S-fecha_vencimiento
+3 B-fecha_vencimiento
+4 I-fecha_vencimiento
+5 E-fecha_vencimiento

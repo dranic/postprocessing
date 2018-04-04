@@ -1,0 +1,5 @@
+1 O
+2 S-fecha_inicio
+3 B-fecha_inicio
+4 I-fecha_inicio
+5 E-fecha_inicio

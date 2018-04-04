@@ -1,0 +1,5 @@
+1 O
+2 S-contrapartida
+3 B-contrapartida
+4 I-contrapartida
+5 E-contrapartida

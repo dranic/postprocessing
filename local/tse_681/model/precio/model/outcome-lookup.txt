@@ -1,0 +1,5 @@
+1 O
+2 S-precio
+3 B-precio
+4 I-precio
+5 E-precio

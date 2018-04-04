@@ -1,0 +1,5 @@
+1 O
+2 S-divisa2
+3 B-divisa2
+4 I-divisa2
+5 E-divisa2

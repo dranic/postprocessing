@@ -1,0 +1,4 @@
+1 O
+2 S-prima
+3 B-prima
+4 E-prima
