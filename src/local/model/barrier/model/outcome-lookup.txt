@@ -1,4 +1,0 @@
-1 O
-2 S-barrier
-3 B-barrier
-4 E-barrier

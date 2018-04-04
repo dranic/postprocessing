@@ -8,8 +8,8 @@
         <version>8.5.3</version>
     </parent>
 
-    <groupId>com.santander.wf.poc</groupId>
-    <artifactId>santander-postpr</artifactId>
+    <groupId>com.santander.wf.poc.tse</groupId>
+    <artifactId>santander-tse-postprocessing</artifactId>
     <version>1.0</version>
 
     <properties>
@@ -101,7 +101,7 @@
                 <configuration>
                     <mainClass>com.workfusion.nlp.uima.hypermodel.HypermodelArtifactBuilder</mainClass>
                     <arguments>
-                        <argument>santander-ie</argument>
+                        <argument>santander-tse</argument>
                         <argument>${hypermodel.output.dir}</argument>
                     </arguments>
                 </configuration>

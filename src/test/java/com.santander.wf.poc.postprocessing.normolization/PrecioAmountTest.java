@@ -1,5 +1,8 @@
 package com.santander.wf.poc.postprocessing.normolization;
 
+import com.santander.wf.poc.postprocessing.tse.normolization.AmountNormalizer;
+import com.santander.wf.poc.postprocessing.tse.normolization.CaseNormalizer;
+import com.santander.wf.poc.postprocessing.tse.normolization.PrecioNormalizer;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -46,6 +49,111 @@ public class PrecioAmountTest {
         Arrays.stream(precioArray).forEach( precio -> {
             PrecioNormalizer normolizer = new PrecioNormalizer();
             System.out.println(precio + "\t\t" + normolizer.normalize(precio));
+        });
+    }
+
+
+
+    String[] strike_Array = {
+            "1.281",
+            "4.33",
+            "0.87",
+            "1.215",
+            "1.231",
+            "19",
+            "17.5",
+            "18.625",
+            "18.09",
+            "19.4",
+            "1.13",
+            "19.5",
+            "19",
+            "19.161",
+            "18.625",
+            "1.26",
+            "19",
+            "19",
+            "18.75",
+            "19",
+            "19.25",
+            "1.3234",
+            "17.75",
+            "18.33",
+            "19.4",
+            "20",
+            "19",
+            "1.26",
+            "19.5",
+            "18.8",
+            "19.667",
+            "17.78",
+            "1.2033",
+            "18.5",
+            "19",
+            "1.1823",
+            "1.185",
+            "0.9",
+            "4.28",
+            "19.459",
+            "10.8478",
+            "1.3286",
+            "1.286",
+            "1.245",
+            "1.275",
+            "0.8925",
+            "1.17",
+            "0.9115",
+            "1.21",
+            "1.155",
+            "1.19",
+            "0.9208",
+            "18.75",
+            "1.39",
+            "9.629",
+            "634.6",
+            "0.878",
+            "18",
+            "2850",
+            "1.3015",
+            "3.242",
+            "3.194",
+            "3.275",
+            "18.5385",
+            "1.1455",
+            "18.225",
+            "18.88",
+            "18.017",
+            "15.4315",
+            "17.768",
+            "1.29218",
+            "3.1995",
+            "3.328",
+            "3.404",
+            "18.551",
+            "18.551",
+            "4.238",
+            "18.8335",
+            "3.2405",
+            "3.3245",
+            "17.73",
+            "1.29",
+            "17.73",
+            "1.2925",
+            "1.345",
+            "1.138",
+            "1.265",
+            "1.2897",
+            "1.41",
+            "18.8835",
+            "6.3",
+            "1.237"
+    };
+
+    @Test
+    public void normolizeStrikeTest() {
+        Arrays.stream(strike_Array).forEach( strike_ -> {
+            PrecioNormalizer normolizer = new PrecioNormalizer();
+            System.out.println(strike_ + "\t\t" + normolizer.normalize(strike_));
         });
     }
 
